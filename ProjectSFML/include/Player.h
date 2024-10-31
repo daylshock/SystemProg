@@ -32,10 +32,7 @@ private:
 	sf::Sound soundAtack;
 	sf::Sound soundHit;
 	void playerControl(float elapsedTime);
-	void soundPLAYERRUN();
-	void soundPLAYERATACK();
-	void soundPLAYERHIT();
-
+	void soundPLAYER(const char* );
 public:
 	void soundPLAYERALL();
 

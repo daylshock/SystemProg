@@ -52,36 +52,38 @@ float Player::getTIMECHARGE()
 float Player::getHEALTH() 
 { return health; }
 
-void Player::soundPLAYERRUN()
+void Player::soundPLAYER(const char* sym) 
 {
-	if (Player::isRUN() && soundRun.getStatus() != sf::Music::Playing)
+	if (sym = "HIT") 
 	{
-		soundRun.play();
+		if (Player::isHIT() && soundHit.getStatus() != sf::Music::Playing)
+		{
+			soundHit.play();
+		}
+		else if (!Player::isHIT() && soundHit.getStatus()) { soundHit.stop(); }
 	}
-	else if (!Player::isRUN() && soundRun.getStatus()) { soundRun.stop(); }
-}
-void Player::soundPLAYERATACK()
-{
-	if (Player::isATACK() && soundAtack.getStatus() != sf::Music::Playing)
+	if (sym = "ATACK") 
 	{
-		soundAtack.play();
+		if (Player::isATACK() && soundAtack.getStatus() != sf::Music::Playing)
+		{
+			soundAtack.play();
+		}
+		else if (!Player::isATACK() && soundAtack.getStatus()) { soundAtack.stop(); }
 	}
-	else if (!Player::isATACK() && soundAtack.getStatus()) { soundAtack.stop(); }
-}
-void Player::soundPLAYERHIT()
-{
-	if (Player::isHIT() && soundHit.getStatus() != sf::Music::Playing)
+	if (sym = "RUN") 
 	{
-		soundHit.play();
+		if (Player::isRUN() && soundRun.getStatus() != sf::Music::Playing)
+		{
+			soundRun.play();
+		}
+		else if (!Player::isRUN() && soundRun.getStatus()) { soundRun.stop(); }
 	}
-	else if (!Player::isHIT() && soundHit.getStatus()) { soundHit.stop(); }
 }
-
 void Player::soundPLAYERALL() 
 {
-	Player::soundPLAYERATACK();
-	Player::soundPLAYERRUN();
-	Player::soundPLAYERHIT();
+	Player::soundPLAYER("ATACK");
+	Player::soundPLAYER("RUN");
+	Player::soundPLAYER("HIT");
 }
 
 void Player::playerKLP() { playerLEFT = true; }
