@@ -15,5 +15,5 @@ public:
 	void degubDISABLE();
 	bool isDebug();
 	sf::Text getTextDebug();
-	void updateDEBUG(Player& player, float elapsedTime);
+	void updateDEBUG(sf::RenderWindow& window,Player& player, float elapsedTime);
 };

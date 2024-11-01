@@ -51,6 +51,10 @@ float Player::getTIMECHARGE()
 }
 float Player::getHEALTH() 
 { return health; }
+sf::Vector2f Player::getPostion() 
+{
+	return position;
+}
 
 void Player::soundPLAYER(const char* sym) 
 {

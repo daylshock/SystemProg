@@ -22,7 +22,7 @@ bool DebugInteface::isDebug()
 void DebugInteface::degubACTIVE(){DebugActive = true;}
 void DebugInteface::degubDISABLE(){DebugActive = false;}
 
-void DebugInteface::updateDEBUG(Player& player, float elapsedTime)
+void DebugInteface::updateDEBUG(sf::RenderWindow& window, Player& player, float elapsedTime)
 {
 	if (DebugInteface::isDebug()) 
 	{

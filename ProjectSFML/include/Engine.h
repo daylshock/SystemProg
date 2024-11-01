@@ -5,18 +5,18 @@
 #include "Player.h"
 #include "Animation.h"
 #include "DebugInterface.h"
-
+#include "Camera.h"
 class Engine 
 {
 private:
 	sf::RenderWindow window;
-	Player player; 
+	Player player;
+	Camera cam;
 	sf::View view;
 	DebugInteface deb;
-	float getFPS(float dtAsSeconds);
 	void input();
-	void render();
 	void update(float dtAsSeconds);
+	void render();
 public:
 	Engine();
 	void start();

@@ -1,13 +1,8 @@
 #pragma once
 #include<SFML/Graphics.hpp>
-
+#include "include/Player.h"
 class Camera
 {
 public:
-	Camera(sf::RectangleShape &sprite_p);
-	void moveCamera(sf::RenderWindow &window, bool move, float time);
-private:
-	unsigned short paddingSIZE;
-	sf::View view;
-	sf::RectangleShape sprite;
+	void updateCamera(sf::RenderWindow& window, sf::View& view, Player& sprite, float elapsed);
 };

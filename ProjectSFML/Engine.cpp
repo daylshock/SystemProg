@@ -1,6 +1,4 @@
 #include "include/Engine.h"
-#define DEBUG
-
 Engine::Engine() 
 {
     window.create(sf::VideoMode(1280, 720), "Demo!", sf::Style::Close);
@@ -8,18 +6,13 @@ Engine::Engine()
     window.setVerticalSyncEnabled(1);
 }
 
-float Engine::getFPS(float dtAsSeconds) 
-{
-    float lastTime = 0;
-    float fps = 1.f / (dtAsSeconds - lastTime);
-    lastTime = dtAsSeconds;
-    return fps;
-}
-
 void Engine::render() 
 {
+   
     window.clear(sf::Color::Cyan);
+    window.setView(view);
     window.draw(player.getSprite());
+    window.setView(window.getDefaultView());
     window.draw(deb.getTextDebug());
     window.display();
 }
@@ -29,11 +22,6 @@ void Engine::input()
     sf::Event event;
     while (window.pollEvent(event))
     {
-        if (event.type == sf::Event::Resized)
-        {
-            sf::FloatRect view(0, 0, (float)event.size.width, (float)event.size.height);
-            window.setView(sf::View(view));
-        }
         if (event.type == sf::Event::Closed) {
             window.close();
         }
@@ -106,8 +94,9 @@ void Engine::input()
 }
 void Engine::update(float dtAsSeconds)
 {
+    cam.updateCamera(window, view, player, dtAsSeconds);
     player.update(dtAsSeconds);
-    deb.updateDEBUG(player, dtAsSeconds);
+    deb.updateDEBUG(window, player, dtAsSeconds);
 }
 
 void Engine::start() 
@@ -126,9 +115,6 @@ void Engine::start()
     {
         sf::Time dt = clock.restart();
         float dtAsSeconds = dt.asSeconds();
-        #ifdef DEBUG
-            std::cout << "FPS: " << Engine::getFPS(dtAsSeconds) << std::endl;
-        #endif // DEBUG
         player.soundPLAYERALL();
         input();
         update(dtAsSeconds);

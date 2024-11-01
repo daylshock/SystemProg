@@ -39,6 +39,7 @@ public:
 	float getTIMEATACK();
 	float getTIMECHARGE();
 	float getHEALTH();
+	sf::Vector2f getPostion();
 	bool isRUN();
 	bool isATACK();
 	bool isCHARGE();
