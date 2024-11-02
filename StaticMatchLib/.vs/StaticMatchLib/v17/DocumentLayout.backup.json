@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{217BF7B3-05A0-45E8-8AD6-F074D75FE95F}|testStatic\\testStatic.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\testStatic\\testStatic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{217BF7B3-05A0-45E8-8AD6-F074D75FE95F}|testStatic\\testStatic.vcxproj|solutionrelative:testStatic\\testStatic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\StaticMatchLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "testStatic.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\testStatic\\testStatic.cpp",
+              "RelativeDocumentMoniker": "testStatic\\testStatic.cpp",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\testStatic\\testStatic.cpp",
+              "RelativeToolTip": "testStatic\\testStatic.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-02T11:09:30.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticMatchLib.h",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h",
+              "RelativeDocumentMoniker": "StaticMatchLib\\StaticMatchLib.h",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h",
+              "RelativeToolTip": "StaticMatchLib\\StaticMatchLib.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T10:50:27.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaticMatchLib.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp",
+              "RelativeDocumentMoniker": "StaticMatchLib\\StaticMatchLib.cpp",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp",
+              "RelativeToolTip": "StaticMatchLib\\StaticMatchLib.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-02T10:46:44.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.cpp",
+              "RelativeDocumentMoniker": "StaticMatchLib\\pch.cpp",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.cpp",
+              "RelativeToolTip": "StaticMatchLib\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-02T10:48:00.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.h",
+              "RelativeDocumentMoniker": "StaticMatchLib\\pch.h",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\pch.h",
+              "RelativeToolTip": "StaticMatchLib\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T10:47:26.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "framework.h",
+              "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\framework.h",
+              "RelativeDocumentMoniker": "StaticMatchLib\\framework.h",
+              "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\StaticMatchLib\\StaticMatchLib\\framework.h",
+              "RelativeToolTip": "StaticMatchLib\\framework.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T10:47:23.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
