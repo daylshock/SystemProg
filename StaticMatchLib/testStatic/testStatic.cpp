@@ -5,7 +5,6 @@
 #include "StaticMatchLib.h"
 
 using namespace StaticMatchLib;
-
 int main()
 {
     setlocale(LC_ALL, "RU");
@@ -18,8 +17,6 @@ int main()
     else {
         std::cout << "Точка не лежит на отрезке" << std::endl;
     }
-
-    std::cout << "Hello World!\n";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
