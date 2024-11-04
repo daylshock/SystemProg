@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{217BF7B3-05A0-45E8-8AD6-F074D75FE95F}|testStatic\\testStatic.vcxproj|solutionrelative:testStatic\\testStatic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\StaticMatchLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|solutionrelative:StaticMatchLib\\StaticMatchLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBF023C-3BF5-4E5D-946C-1A5D3B4E03E7}|StaticMatchLib\\StaticMatchLib.vcxproj|C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "StaticMatchLib\\pch.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T13:31:40.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:31:40.621Z"
             },
             {
               "$type": "Document",
@@ -57,33 +56,33 @@
               "RelativeDocumentMoniker": "testStatic\\testStatic.cpp",
               "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\testStatic\\testStatic.cpp",
               "RelativeToolTip": "testStatic\\testStatic.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-02T11:09:30.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StaticMatchLib.h",
               "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h",
               "RelativeDocumentMoniker": "StaticMatchLib\\StaticMatchLib.h",
               "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.h",
               "RelativeToolTip": "StaticMatchLib\\StaticMatchLib.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-02T10:50:27.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StaticMatchLib.cpp",
               "DocumentMoniker": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp",
               "RelativeDocumentMoniker": "StaticMatchLib\\StaticMatchLib.cpp",
               "ToolTip": "C:\\Users\\\u0442\u0438\u0448\u043A\u0430\\source\\repos\\ProjectSFML\\StaticMatchLib\\StaticMatchLib\\StaticMatchLib.cpp",
               "RelativeToolTip": "StaticMatchLib\\StaticMatchLib.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-02T10:46:44.412Z",
               "EditorCaption": ""

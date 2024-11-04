@@ -4,39 +4,33 @@
 #include <vector>
 namespace StaticMatchLib 
 {
-	class PointXY 
+	struct PointXY
 	{
-	public:
-		PointXY(const PointXY& );
-		PointXY(int, int);
+		PointXY(int,int);
+		PointXY(const PointXY&);
 		int X;
 		int Y;
-	private:
-		std::mutex mtx;
+std::mutex mtx;
 	};
-	class Segment 
+	struct Segment 
 	{
-	public:
-		Segment(const Segment&);
 		Segment(PointXY, PointXY);
 		PointXY getStart();
 		PointXY getEnd();
+std::mutex mtx;
 	private:
-		std::mutex mtx;
 		PointXY start, end;
 	};
-	class Line 
+	struct Line 
 	{
-	public:
 		Line(std::vector<PointXY>);
 		std::vector<PointXY> getPoints();
-	private:
 		std::vector<PointXY> points;
 		std::mutex mtx;
 	};
 	class BasicMatchLib 
 	{
 	public:
-		static bool isPointOnSegment(PointXY p, Segment s);
+		static bool isPointOnSegment(PointXY &p, Segment &s);
 	};
 }
