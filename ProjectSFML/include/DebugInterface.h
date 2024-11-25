@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "include/Player.h"
+#include "include/Camera.h"
 #include <sstream>
 
 class DebugInteface
@@ -15,5 +16,5 @@ public:
 	void degubDISABLE();
 	bool isDebug();
 	sf::Text getTextDebug();
-	void updateDEBUG(sf::RenderWindow& window,Player& player, float elapsedTime);
+	void updateDEBUG(sf::RenderWindow*& , Camera*&, Player*& , float );
 };

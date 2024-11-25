@@ -1,8 +1,16 @@
 #pragma once
-#include<SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include "include/Player.h"
 class Camera
 {
+private:
+	sf::Vector2f posPlayer;
+	sf::View* view;
+	sf::Vector2f viewCenter;
 public:
-	void updateCamera(sf::RenderWindow& window, sf::View& view, Player& sprite, float elapsed);
+	sf::Vector2f diff;
+	Camera();
+	~Camera();
+	void updateCAMERA(Player*& , float);
+	sf::View* getView();
 };

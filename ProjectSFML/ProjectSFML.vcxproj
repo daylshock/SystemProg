@@ -134,6 +134,7 @@
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimForPlayer.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CusorPixel.cpp" />
     <ClCompile Include="DebugInteface.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="main.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="include\Animation.h" />
     <ClInclude Include="include\AnimForPlayer.h" />
     <ClInclude Include="include\DebugInterface.h" />
+    <ClInclude Include="include\CursorPixel.h" />
     <ClInclude Include="include\Player.h" />
   </ItemGroup>
   <ItemGroup>

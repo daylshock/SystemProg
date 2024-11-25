@@ -4,50 +4,61 @@
 #include "include/Animation.h"
 #include "include/AnimForPlayer.h"
 #include <string>
+#include <unordered_map>
 
 class Player : public animRUN, public animIDLE, public animATACK, public animCHARGE, public animHIT
 {
 private:
 	sf::Sprite player;
-	sf::Texture textureRUN;
-	sf::Texture textureIDLE;
-	sf::Texture textureATACK;
-	sf::Texture textureCHARGE;
-	sf::Texture textureHIT;
+
+	std::unordered_map<const char*, sf::Texture*> _textures;
+	std::unordered_map<const char*, sf::SoundBuffer*> _soundBuff_s;
+	std::unordered_map<const char*, sf::Sound*> _sounds;
+
+		void loadRes();
+		void loadTexture(const char*, const char*);
+		void loadSound(const char*, const char*);
 
 	float timeAtack;
 	float timeCharge;
-	float health;
+	float timeAfterCharge;
+
+	int health;
+
 	float speed;
 	sf::Vector2f position;
 	bool playerLEFT, playerRIGHT, playerUP, playerDOWN;
 	bool playerATACK, playerCHARGE;
 	bool playerHIT;
 
-	sf::SoundBuffer bufferRUN;
-	sf::SoundBuffer bufferATACK;
-	sf::SoundBuffer bufferHIT;
+	sf::SoundBuffer* bufferRUN = new sf::SoundBuffer;
+	sf::SoundBuffer* bufferATACK = new sf::SoundBuffer;
+	sf::SoundBuffer* bufferHIT = new sf::SoundBuffer;
 
-	sf::Sound soundRun;
-	sf::Sound soundAtack;
-	sf::Sound soundHit;
-	void playerControl(float elapsedTime);
-	void soundPLAYER(const char* );
+	sf::Sound* soundRun = new sf::Sound;
+	sf::Sound* soundAtack = new sf::Sound;
+	sf::Sound* soundHit = new sf::Sound;
+
+	void playerControl(float);
+	void soundPLAYER(const char*);
+
 public:
 	void soundPLAYERALL();
 
 	float getTIMEATACK();
 	float getTIMECHARGE();
-	float getHEALTH();
+	int getHEALTH();
+	float getTIMEAFTECHARGE();
 	sf::Vector2f getPostion();
+
 	bool isRUN();
 	bool isATACK();
 	bool isCHARGE();
 	bool isHIT();
-	/*void playSoundRUN();
-	void stopSoundRUN();*/
+
 	void playerKMOUSELEFT_P();
 	void playerKSHIFTP();
+
 	void playerKKP();
 	void playerKKR();
 	void playerKLP();
@@ -65,7 +76,7 @@ public:
 	void playerNOTMirrored();
 	
 	Player();
+	~Player();
 	sf::Sprite getSprite();
-	void update(float elapsedTime);
-
+	void updatePLAYER(float elapsedTime);
 };
